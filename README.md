@@ -20,11 +20,6 @@
     <h2>example output:</h2>
     <code>https://ms-file-metadata.herokuapp.com/get-file-size</code><br><br>
     <code>{"filename":"SteveSong_Resume_2016.pdf","size":160852}</code><br><br>
-    <h4>Submit a file to view its filesize</h4>
-    <form action="/get-file-size" method="post" enctype="multipart/form-data">
-      <input type="file" name="file-check"><br>
-      <input type="submit">
-    </form>
 </div>
 </body>
 </html>
